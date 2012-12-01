@@ -29,7 +29,7 @@ function loadScript(url, callback) {
 
 
 var script = document.createElement('script');
-loadScript('/soap/ajax/23.0/connection.js', function() {
+loadScript('/soap/ajax/26.0/connection.js', function() {
   sforce.connection.sessionId = sid;
   sforce.connection.getUserInfo(function(userInfo) {
      var user = new sforce.SObject('User');
